@@ -1,0 +1,438 @@
+1.280433
+462.6412250000017
+<class 'pandas.core.frame.DataFrame'>
+RangeIndex: 227 entries, 0 to 226
+Data columns (total 3 columns):
+ #   Column  Non-Null Count  Dtype 
+---  ------  --------------  ----- 
+ 0   st_ID   227 non-null    object
+ 1   xx      227 non-null    int64 
+ 2   yy      227 non-null    int64 
+dtypes: int64(2), object(1)
+memory usage: 5.4+ KB
+None
+<class 'pandas.core.frame.DataFrame'>
+Index: 170092 entries, 0 to 184394
+Data columns (total 23 columns):
+ #   Column     Non-Null Count   Dtype  
+---  ------     --------------   -----  
+ 0   st_ID      170092 non-null  object 
+ 1   date       170092 non-null  object 
+ 2   BCSMASS    170092 non-null  float64
+ 3   xx         170092 non-null  int64  
+ 4   yy         170092 non-null  int64  
+ 5   OCSMASS    170092 non-null  float64
+ 6   DUSMASS    170092 non-null  float64
+ 7   SO2SMASS   170092 non-null  float64
+ 8   SO4SMASS   170092 non-null  float64
+ 9   TOTEXTTAU  170092 non-null  float64
+ 10  EVAP       170092 non-null  float64
+ 11  RH         170092 non-null  float64
+ 12  DEWP2      170092 non-null  float64
+ 13  TEMP2      170092 non-null  float64
+ 14  VWIND10    170092 non-null  float64
+ 15  UWIND10    170092 non-null  float64
+ 16  SP         170092 non-null  float64
+ 17  SSRD       170092 non-null  float64
+ 18  ALBEDO     170092 non-null  float64
+ 19  TPREC      170092 non-null  float64
+ 20  BLH        170092 non-null  float64
+ 21  TCLOUD     170092 non-null  float64
+ 22  obs_pm25   170092 non-null  float64
+dtypes: float64(19), int64(2), object(2)
+memory usage: 31.1+ MB
+None
+['BCSMASS', 'OCSMASS', 'DUSMASS', 'SO2SMASS', 'SO4SMASS', 'TOTEXTTAU', 'EVAP', 'DEWP2', 'TEMP2', 'VWIND10', 'UWIND10', 'SP', 'SSRD', 'TPREC', 'BLH', 'TCLOUD']
+['/data9/wangs/india/merra2/daily_clip/MERRA2_daily_1822_BCSMASS_concat.nc', '/data9/wangs/india/merra2/daily_clip/MERRA2_daily_1822_OCSMASS_concat.nc', '/data9/wangs/india/merra2/daily_clip/MERRA2_daily_1822_DUSMASS_concat.nc', '/data9/wangs/india/merra2/daily_clip/MERRA2_daily_1822_SO2SMASS_concat.nc', '/data9/wangs/india/merra2/daily_clip/MERRA2_daily_1822_SO4SMASS_concat.nc', '/data9/wangs/india/merra2/daily_clip/MERRA2_daily_1822_TOTEXTTAU_concat.nc', '/data9/wangs/india/era5/era5_concat_daily_clip/1822.evaporation.concat.nc', '/data9/wangs/india/era5/era5_concat_daily_clip/1822.2m_dewpoint_temperature.concat.nc', '/data9/wangs/india/era5/era5_concat_daily_clip/1822.2m_temperature.concat.nc', '/data9/wangs/india/era5/era5_concat_daily_clip/1822.10m_v_component_of_wind.concat.nc', '/data9/wangs/india/era5/era5_concat_daily_clip/1822.10m_u_component_of_wind.concat.nc', '/data9/wangs/india/era5/era5_concat_daily_clip/1822.surface_pressure.concat.nc', '/data9/wangs/india/era5/era5_concat_daily_clip/1822.surface_solar_radiation_downwards.concat.nc', '/data9/wangs/india/era5/era5_concat_daily_clip/1822.total_precipitation.concat.nc', '/data9/wangs/india/era5/era5_concat_daily_clip/1822.boundary_layer_height.concat.nc', '/data9/wangs/india/era5/era5_concat_daily_clip/1822.total_cloud_cover.concat.nc']
+BCSMASS
+6.9708694e-10
+OCSMASS
+3.5326548e-09
+DUSMASS
+5.556897e-08
+SO2SMASS
+1.7809201e-09
+SO4SMASS
+3.5430918e-09
+TOTEXTTAU
+0.27342507
+EVAP
+-0.0007108647
+DEWP2
+284.52866
+TEMP2
+292.22144
+VWIND10
+0.080468744
+UWIND10
+0.79617417
+SP
+90096.84
+SSRD
+9003980.0
+TPREC
+0.0009316063
+BLH
+613.2752
+TCLOUD
+0.4981942
+obs_pm25
+65.17136465394924
+<class 'pandas.core.frame.DataFrame'>
+Index: 170092 entries, 0 to 184394
+Data columns (total 23 columns):
+ #   Column     Non-Null Count   Dtype  
+---  ------     --------------   -----  
+ 0   st_ID      170092 non-null  object 
+ 1   date       170092 non-null  object 
+ 2   BCSMASS    170092 non-null  float64
+ 3   xx         170092 non-null  int64  
+ 4   yy         170092 non-null  int64  
+ 5   OCSMASS    170092 non-null  float64
+ 6   DUSMASS    170092 non-null  float64
+ 7   SO2SMASS   170092 non-null  float64
+ 8   SO4SMASS   170092 non-null  float64
+ 9   TOTEXTTAU  170092 non-null  float64
+ 10  EVAP       170092 non-null  float64
+ 11  RH         170092 non-null  float64
+ 12  DEWP2      170092 non-null  float64
+ 13  TEMP2      170092 non-null  float64
+ 14  VWIND10    170092 non-null  float64
+ 15  UWIND10    170092 non-null  float64
+ 16  SP         170092 non-null  float64
+ 17  SSRD       170092 non-null  float64
+ 18  ALBEDO     170092 non-null  float64
+ 19  TPREC      170092 non-null  float64
+ 20  BLH        170092 non-null  float64
+ 21  TCLOUD     170092 non-null  float64
+ 22  obs_pm25   170092 non-null  float64
+dtypes: float64(19), int64(2), object(2)
+memory usage: 31.1+ MB
+None
+Traceback (most recent call last):
+  File "./normalize.py", line 130, in <module>
+    np.save(file=os.path.join(nc_dir, str(st)+".npy"), arr=input_nc[var_lt].to_array().values.astype(np.float16))
+  File "<__array_function__ internals>", line 180, in save
+  File "/public/home/wangs/anaconda2/envs/pytorch/lib/python3.8/site-packages/numpy/lib/npyio.py", line 518, in save
+    file_ctx = open(file, "wb")
+FileNotFoundError: [Errno 2] No such file or directory: '/data6/wangs/pm1/pm_india_1822_npy/pm_india_1822/AP001.npy'
+1.280433
+462.6412250000017
+<class 'pandas.core.frame.DataFrame'>
+RangeIndex: 227 entries, 0 to 226
+Data columns (total 3 columns):
+ #   Column  Non-Null Count  Dtype 
+---  ------  --------------  ----- 
+ 0   st_ID   227 non-null    object
+ 1   xx      227 non-null    int64 
+ 2   yy      227 non-null    int64 
+dtypes: int64(2), object(1)
+memory usage: 5.4+ KB
+None
+<class 'pandas.core.frame.DataFrame'>
+Index: 170092 entries, 0 to 184394
+Data columns (total 23 columns):
+ #   Column     Non-Null Count   Dtype  
+---  ------     --------------   -----  
+ 0   st_ID      170092 non-null  object 
+ 1   date       170092 non-null  object 
+ 2   BCSMASS    170092 non-null  float64
+ 3   xx         170092 non-null  int64  
+ 4   yy         170092 non-null  int64  
+ 5   OCSMASS    170092 non-null  float64
+ 6   DUSMASS    170092 non-null  float64
+ 7   SO2SMASS   170092 non-null  float64
+ 8   SO4SMASS   170092 non-null  float64
+ 9   TOTEXTTAU  170092 non-null  float64
+ 10  EVAP       170092 non-null  float64
+ 11  RH         170092 non-null  float64
+ 12  DEWP2      170092 non-null  float64
+ 13  TEMP2      170092 non-null  float64
+ 14  VWIND10    170092 non-null  float64
+ 15  UWIND10    170092 non-null  float64
+ 16  SP         170092 non-null  float64
+ 17  SSRD       170092 non-null  float64
+ 18  ALBEDO     170092 non-null  float64
+ 19  TPREC      170092 non-null  float64
+ 20  BLH        170092 non-null  float64
+ 21  TCLOUD     170092 non-null  float64
+ 22  obs_pm25   170092 non-null  float64
+dtypes: float64(19), int64(2), object(2)
+memory usage: 31.1+ MB
+None
+['BCSMASS', 'OCSMASS', 'DUSMASS', 'SO2SMASS', 'SO4SMASS', 'TOTEXTTAU', 'EVAP', 'DEWP2', 'TEMP2', 'VWIND10', 'UWIND10', 'SP', 'SSRD', 'TPREC', 'BLH', 'TCLOUD']
+['/data9/wangs/india/merra2/daily_clip/MERRA2_daily_1822_BCSMASS_concat.nc', '/data9/wangs/india/merra2/daily_clip/MERRA2_daily_1822_OCSMASS_concat.nc', '/data9/wangs/india/merra2/daily_clip/MERRA2_daily_1822_DUSMASS_concat.nc', '/data9/wangs/india/merra2/daily_clip/MERRA2_daily_1822_SO2SMASS_concat.nc', '/data9/wangs/india/merra2/daily_clip/MERRA2_daily_1822_SO4SMASS_concat.nc', '/data9/wangs/india/merra2/daily_clip/MERRA2_daily_1822_TOTEXTTAU_concat.nc', '/data9/wangs/india/era5/era5_concat_daily_clip/1822.evaporation.concat.nc', '/data9/wangs/india/era5/era5_concat_daily_clip/1822.2m_dewpoint_temperature.concat.nc', '/data9/wangs/india/era5/era5_concat_daily_clip/1822.2m_temperature.concat.nc', '/data9/wangs/india/era5/era5_concat_daily_clip/1822.10m_v_component_of_wind.concat.nc', '/data9/wangs/india/era5/era5_concat_daily_clip/1822.10m_u_component_of_wind.concat.nc', '/data9/wangs/india/era5/era5_concat_daily_clip/1822.surface_pressure.concat.nc', '/data9/wangs/india/era5/era5_concat_daily_clip/1822.surface_solar_radiation_downwards.concat.nc', '/data9/wangs/india/era5/era5_concat_daily_clip/1822.total_precipitation.concat.nc', '/data9/wangs/india/era5/era5_concat_daily_clip/1822.boundary_layer_height.concat.nc', '/data9/wangs/india/era5/era5_concat_daily_clip/1822.total_cloud_cover.concat.nc']
+BCSMASS
+6.9708694e-10
+OCSMASS
+3.5326548e-09
+DUSMASS
+5.556897e-08
+SO2SMASS
+1.7809201e-09
+SO4SMASS
+3.5430918e-09
+TOTEXTTAU
+0.27342507
+EVAP
+-0.0007108647
+DEWP2
+284.52866
+TEMP2
+292.22144
+VWIND10
+0.080468744
+UWIND10
+0.79617417
+SP
+90096.84
+SSRD
+9003980.0
+TPREC
+0.0009316063
+BLH
+613.2752
+TCLOUD
+0.4981942
+obs_pm25
+65.17136465394924
+<class 'pandas.core.frame.DataFrame'>
+Index: 170092 entries, 0 to 184394
+Data columns (total 23 columns):
+ #   Column     Non-Null Count   Dtype  
+---  ------     --------------   -----  
+ 0   st_ID      170092 non-null  object 
+ 1   date       170092 non-null  object 
+ 2   BCSMASS    170092 non-null  float64
+ 3   xx         170092 non-null  int64  
+ 4   yy         170092 non-null  int64  
+ 5   OCSMASS    170092 non-null  float64
+ 6   DUSMASS    170092 non-null  float64
+ 7   SO2SMASS   170092 non-null  float64
+ 8   SO4SMASS   170092 non-null  float64
+ 9   TOTEXTTAU  170092 non-null  float64
+ 10  EVAP       170092 non-null  float64
+ 11  RH         170092 non-null  float64
+ 12  DEWP2      170092 non-null  float64
+ 13  TEMP2      170092 non-null  float64
+ 14  VWIND10    170092 non-null  float64
+ 15  UWIND10    170092 non-null  float64
+ 16  SP         170092 non-null  float64
+ 17  SSRD       170092 non-null  float64
+ 18  ALBEDO     170092 non-null  float64
+ 19  TPREC      170092 non-null  float64
+ 20  BLH        170092 non-null  float64
+ 21  TCLOUD     170092 non-null  float64
+ 22  obs_pm25   170092 non-null  float64
+dtypes: float64(19), int64(2), object(2)
+memory usage: 31.1+ MB
+None
+/data9/wangs/india/train_generate_4longTerm/pm_train_4cnn_single_40_1822_daily/BR002.nc not found
+Traceback (most recent call last):
+  File "./normalize.py", line 131, in <module>
+    input_nc[spec] = (input_nc[spec] - mean_std_df.loc[spec,'mean']) / mean_std_df.loc[spec,'std']
+  File "/public/home/wangs/anaconda2/envs/pytorch/lib/python3.8/site-packages/xarray/core/_typed_ops.py", line 209, in __sub__
+    return self._binary_op(other, operator.sub)
+  File "/public/home/wangs/anaconda2/envs/pytorch/lib/python3.8/site-packages/xarray/core/dataarray.py", line 4155, in _binary_op
+    f(self.variable, other_variable)
+  File "/public/home/wangs/anaconda2/envs/pytorch/lib/python3.8/site-packages/xarray/core/_typed_ops.py", line 399, in __sub__
+    return self._binary_op(other, operator.sub)
+  File "/public/home/wangs/anaconda2/envs/pytorch/lib/python3.8/site-packages/xarray/core/variable.py", line 2586, in _binary_op
+    self_data, other_data, dims = _broadcast_compat_data(self, other)
+  File "/public/home/wangs/anaconda2/envs/pytorch/lib/python3.8/site-packages/xarray/core/variable.py", line 3080, in _broadcast_compat_data
+    self_data = self.data
+  File "/public/home/wangs/anaconda2/envs/pytorch/lib/python3.8/site-packages/xarray/core/variable.py", line 386, in data
+    return self.values
+  File "/public/home/wangs/anaconda2/envs/pytorch/lib/python3.8/site-packages/xarray/core/variable.py", line 559, in values
+    return _as_array_or_item(self._data)
+  File "/public/home/wangs/anaconda2/envs/pytorch/lib/python3.8/site-packages/xarray/core/variable.py", line 265, in _as_array_or_item
+    data = np.asarray(data)
+  File "/public/home/wangs/anaconda2/envs/pytorch/lib/python3.8/site-packages/xarray/core/indexing.py", line 653, in __array__
+    self._ensure_cached()
+  File "/public/home/wangs/anaconda2/envs/pytorch/lib/python3.8/site-packages/xarray/core/indexing.py", line 650, in _ensure_cached
+    self.array = NumpyIndexingAdapter(np.asarray(self.array))
+  File "/public/home/wangs/anaconda2/envs/pytorch/lib/python3.8/site-packages/xarray/core/indexing.py", line 623, in __array__
+    return np.asarray(self.array, dtype=dtype)
+  File "/public/home/wangs/anaconda2/envs/pytorch/lib/python3.8/site-packages/xarray/core/indexing.py", line 524, in __array__
+    return np.asarray(array[self.key], dtype=None)
+  File "/public/home/wangs/anaconda2/envs/pytorch/lib/python3.8/site-packages/xarray/backends/netCDF4_.py", line 95, in __getitem__
+    return indexing.explicit_indexing_adapter(
+  File "/public/home/wangs/anaconda2/envs/pytorch/lib/python3.8/site-packages/xarray/core/indexing.py", line 815, in explicit_indexing_adapter
+    result = raw_indexing_method(raw_key.tuple)
+  File "/public/home/wangs/anaconda2/envs/pytorch/lib/python3.8/site-packages/xarray/backends/netCDF4_.py", line 108, in _getitem
+    array = getitem(original_array, key)
+KeyboardInterrupt
+1.280433
+462.6412250000017
+<class 'pandas.core.frame.DataFrame'>
+RangeIndex: 227 entries, 0 to 226
+Data columns (total 3 columns):
+ #   Column  Non-Null Count  Dtype 
+---  ------  --------------  ----- 
+ 0   st_ID   227 non-null    object
+ 1   xx      227 non-null    int64 
+ 2   yy      227 non-null    int64 
+dtypes: int64(2), object(1)
+memory usage: 5.4+ KB
+None
+<class 'pandas.core.frame.DataFrame'>
+Index: 170092 entries, 0 to 184394
+Data columns (total 23 columns):
+ #   Column     Non-Null Count   Dtype  
+---  ------     --------------   -----  
+ 0   st_ID      170092 non-null  object 
+ 1   date       170092 non-null  object 
+ 2   BCSMASS    170092 non-null  float64
+ 3   xx         170092 non-null  int64  
+ 4   yy         170092 non-null  int64  
+ 5   OCSMASS    170092 non-null  float64
+ 6   DUSMASS    170092 non-null  float64
+ 7   SO2SMASS   170092 non-null  float64
+ 8   SO4SMASS   170092 non-null  float64
+ 9   TOTEXTTAU  170092 non-null  float64
+ 10  EVAP       170092 non-null  float64
+ 11  RH         170092 non-null  float64
+ 12  DEWP2      170092 non-null  float64
+ 13  TEMP2      170092 non-null  float64
+ 14  VWIND10    170092 non-null  float64
+ 15  UWIND10    170092 non-null  float64
+ 16  SP         170092 non-null  float64
+ 17  SSRD       170092 non-null  float64
+ 18  ALBEDO     170092 non-null  float64
+ 19  TPREC      170092 non-null  float64
+ 20  BLH        170092 non-null  float64
+ 21  TCLOUD     170092 non-null  float64
+ 22  obs_pm25   170092 non-null  float64
+dtypes: float64(19), int64(2), object(2)
+memory usage: 31.1+ MB
+None
+['BCSMASS', 'OCSMASS', 'DUSMASS', 'SO2SMASS', 'SO4SMASS', 'TOTEXTTAU', 'EVAP', 'DEWP2', 'TEMP2', 'VWIND10', 'UWIND10', 'SP', 'SSRD', 'TPREC', 'BLH', 'TCLOUD']
+['/data9/wangs/india/merra2/daily_clip/MERRA2_daily_1822_BCSMASS_concat.nc', '/data9/wangs/india/merra2/daily_clip/MERRA2_daily_1822_OCSMASS_concat.nc', '/data9/wangs/india/merra2/daily_clip/MERRA2_daily_1822_DUSMASS_concat.nc', '/data9/wangs/india/merra2/daily_clip/MERRA2_daily_1822_SO2SMASS_concat.nc', '/data9/wangs/india/merra2/daily_clip/MERRA2_daily_1822_SO4SMASS_concat.nc', '/data9/wangs/india/merra2/daily_clip/MERRA2_daily_1822_TOTEXTTAU_concat.nc', '/data9/wangs/india/era5/era5_concat_daily_clip/1822.evaporation.concat.nc', '/data9/wangs/india/era5/era5_concat_daily_clip/1822.2m_dewpoint_temperature.concat.nc', '/data9/wangs/india/era5/era5_concat_daily_clip/1822.2m_temperature.concat.nc', '/data9/wangs/india/era5/era5_concat_daily_clip/1822.10m_v_component_of_wind.concat.nc', '/data9/wangs/india/era5/era5_concat_daily_clip/1822.10m_u_component_of_wind.concat.nc', '/data9/wangs/india/era5/era5_concat_daily_clip/1822.surface_pressure.concat.nc', '/data9/wangs/india/era5/era5_concat_daily_clip/1822.surface_solar_radiation_downwards.concat.nc', '/data9/wangs/india/era5/era5_concat_daily_clip/1822.total_precipitation.concat.nc', '/data9/wangs/india/era5/era5_concat_daily_clip/1822.boundary_layer_height.concat.nc', '/data9/wangs/india/era5/era5_concat_daily_clip/1822.total_cloud_cover.concat.nc']
+BCSMASS
+6.9708694e-10
+OCSMASS
+3.5326548e-09
+DUSMASS
+5.556897e-08
+SO2SMASS
+1.7809201e-09
+SO4SMASS
+3.5430918e-09
+TOTEXTTAU
+0.27342507
+EVAP
+-0.0007108647
+DEWP2
+284.52866
+TEMP2
+292.22144
+VWIND10
+0.080468744
+UWIND10
+0.79617417
+SP
+90096.84
+SSRD
+9003980.0
+TPREC
+0.0009316063
+BLH
+613.2752
+TCLOUD
+0.4981942
+obs_pm25
+65.17136465394924
+<class 'pandas.core.frame.DataFrame'>
+Index: 170092 entries, 0 to 184394
+Data columns (total 23 columns):
+ #   Column     Non-Null Count   Dtype  
+---  ------     --------------   -----  
+ 0   st_ID      170092 non-null  object 
+ 1   date       170092 non-null  object 
+ 2   BCSMASS    170092 non-null  float64
+ 3   xx         170092 non-null  int64  
+ 4   yy         170092 non-null  int64  
+ 5   OCSMASS    170092 non-null  float64
+ 6   DUSMASS    170092 non-null  float64
+ 7   SO2SMASS   170092 non-null  float64
+ 8   SO4SMASS   170092 non-null  float64
+ 9   TOTEXTTAU  170092 non-null  float64
+ 10  EVAP       170092 non-null  float64
+ 11  RH         170092 non-null  float64
+ 12  DEWP2      170092 non-null  float64
+ 13  TEMP2      170092 non-null  float64
+ 14  VWIND10    170092 non-null  float64
+ 15  UWIND10    170092 non-null  float64
+ 16  SP         170092 non-null  float64
+ 17  SSRD       170092 non-null  float64
+ 18  ALBEDO     170092 non-null  float64
+ 19  TPREC      170092 non-null  float64
+ 20  BLH        170092 non-null  float64
+ 21  TCLOUD     170092 non-null  float64
+ 22  obs_pm25   170092 non-null  float64
+dtypes: float64(19), int64(2), object(2)
+memory usage: 31.1+ MB
+None
+/data9/wangs/india/train_generate_4longTerm/pm_train_4cnn_single_40_1822_daily/BR002.nc not found
+/data9/wangs/india/train_generate_4longTerm/pm_train_4cnn_single_40_1822_daily/BR009.nc not found
+/data9/wangs/india/train_generate_4longTerm/pm_train_4cnn_single_40_1822_daily/BR010.nc not found
+/data9/wangs/india/train_generate_4longTerm/pm_train_4cnn_single_40_1822_daily/DL013.nc not found
+/data9/wangs/india/train_generate_4longTerm/pm_train_4cnn_single_40_1822_daily/DL014.nc not found
+/data9/wangs/india/train_generate_4longTerm/pm_train_4cnn_single_40_1822_daily/DL015.nc not found
+/data9/wangs/india/train_generate_4longTerm/pm_train_4cnn_single_40_1822_daily/DL016.nc not found
+/data9/wangs/india/train_generate_4longTerm/pm_train_4cnn_single_40_1822_daily/DL017.nc not found
+/data9/wangs/india/train_generate_4longTerm/pm_train_4cnn_single_40_1822_daily/DL018.nc not found
+/data9/wangs/india/train_generate_4longTerm/pm_train_4cnn_single_40_1822_daily/DL019.nc not found
+/data9/wangs/india/train_generate_4longTerm/pm_train_4cnn_single_40_1822_daily/DL021.nc not found
+/data9/wangs/india/train_generate_4longTerm/pm_train_4cnn_single_40_1822_daily/DL023.nc not found
+/data9/wangs/india/train_generate_4longTerm/pm_train_4cnn_single_40_1822_daily/DL024.nc not found
+/data9/wangs/india/train_generate_4longTerm/pm_train_4cnn_single_40_1822_daily/DL025.nc not found
+/data9/wangs/india/train_generate_4longTerm/pm_train_4cnn_single_40_1822_daily/DL026.nc not found
+/data9/wangs/india/train_generate_4longTerm/pm_train_4cnn_single_40_1822_daily/DL027.nc not found
+/data9/wangs/india/train_generate_4longTerm/pm_train_4cnn_single_40_1822_daily/DL028.nc not found
+/data9/wangs/india/train_generate_4longTerm/pm_train_4cnn_single_40_1822_daily/DL029.nc not found
+/data9/wangs/india/train_generate_4longTerm/pm_train_4cnn_single_40_1822_daily/DL030.nc not found
+/data9/wangs/india/train_generate_4longTerm/pm_train_4cnn_single_40_1822_daily/DL031.nc not found
+/data9/wangs/india/train_generate_4longTerm/pm_train_4cnn_single_40_1822_daily/DL032.nc not found
+/data9/wangs/india/train_generate_4longTerm/pm_train_4cnn_single_40_1822_daily/DL033.nc not found
+/data9/wangs/india/train_generate_4longTerm/pm_train_4cnn_single_40_1822_daily/DL034.nc not found
+/data9/wangs/india/train_generate_4longTerm/pm_train_4cnn_single_40_1822_daily/DL035.nc not found
+/data9/wangs/india/train_generate_4longTerm/pm_train_4cnn_single_40_1822_daily/DL036.nc not found
+/data9/wangs/india/train_generate_4longTerm/pm_train_4cnn_single_40_1822_daily/DL037.nc not found
+/data9/wangs/india/train_generate_4longTerm/pm_train_4cnn_single_40_1822_daily/DL038.nc not found
+/data9/wangs/india/train_generate_4longTerm/pm_train_4cnn_single_40_1822_daily/HR006.nc not found
+/data9/wangs/india/train_generate_4longTerm/pm_train_4cnn_single_40_1822_daily/HR007.nc not found
+/data9/wangs/india/train_generate_4longTerm/pm_train_4cnn_single_40_1822_daily/HR009.nc not found
+/data9/wangs/india/train_generate_4longTerm/pm_train_4cnn_single_40_1822_daily/HR011.nc not found
+/data9/wangs/india/train_generate_4longTerm/pm_train_4cnn_single_40_1822_daily/HR013.nc not found
+/data9/wangs/india/train_generate_4longTerm/pm_train_4cnn_single_40_1822_daily/HR014.nc not found
+/data9/wangs/india/train_generate_4longTerm/pm_train_4cnn_single_40_1822_daily/KA004.nc not found
+/data9/wangs/india/train_generate_4longTerm/pm_train_4cnn_single_40_1822_daily/KA005.nc not found
+/data9/wangs/india/train_generate_4longTerm/pm_train_4cnn_single_40_1822_daily/KA007.nc not found
+/data9/wangs/india/train_generate_4longTerm/pm_train_4cnn_single_40_1822_daily/KA008.nc not found
+/data9/wangs/india/train_generate_4longTerm/pm_train_4cnn_single_40_1822_daily/KA010.nc not found
+/data9/wangs/india/train_generate_4longTerm/pm_train_4cnn_single_40_1822_daily/KA011.nc not found
+/data9/wangs/india/train_generate_4longTerm/pm_train_4cnn_single_40_1822_daily/MH003.nc not found
+/data9/wangs/india/train_generate_4longTerm/pm_train_4cnn_single_40_1822_daily/MH009.nc not found
+/data9/wangs/india/train_generate_4longTerm/pm_train_4cnn_single_40_1822_daily/MH011.nc not found
+/data9/wangs/india/train_generate_4longTerm/pm_train_4cnn_single_40_1822_daily/MH013.nc not found
+/data9/wangs/india/train_generate_4longTerm/pm_train_4cnn_single_40_1822_daily/MH014.nc not found
+/data9/wangs/india/train_generate_4longTerm/pm_train_4cnn_single_40_1822_daily/MH017.nc not found
+/data9/wangs/india/train_generate_4longTerm/pm_train_4cnn_single_40_1822_daily/MH022.nc not found
+/data9/wangs/india/train_generate_4longTerm/pm_train_4cnn_single_40_1822_daily/PB008.nc not found
+/data9/wangs/india/train_generate_4longTerm/pm_train_4cnn_single_40_1822_daily/RJ006.nc not found
+/data9/wangs/india/train_generate_4longTerm/pm_train_4cnn_single_40_1822_daily/TN003.nc not found
+/data9/wangs/india/train_generate_4longTerm/pm_train_4cnn_single_40_1822_daily/TG004.nc not found
+/data9/wangs/india/train_generate_4longTerm/pm_train_4cnn_single_40_1822_daily/UP004.nc not found
+/data9/wangs/india/train_generate_4longTerm/pm_train_4cnn_single_40_1822_daily/UP005.nc not found
+/data9/wangs/india/train_generate_4longTerm/pm_train_4cnn_single_40_1822_daily/UP007.nc not found
+/data9/wangs/india/train_generate_4longTerm/pm_train_4cnn_single_40_1822_daily/UP015.nc not found
+/data9/wangs/india/train_generate_4longTerm/pm_train_4cnn_single_40_1822_daily/UP018.nc not found
+/data9/wangs/india/train_generate_4longTerm/pm_train_4cnn_single_40_1822_daily/UP023.nc not found
+/data9/wangs/india/train_generate_4longTerm/pm_train_4cnn_single_40_1822_daily/UP024.nc not found
+/data9/wangs/india/train_generate_4longTerm/pm_train_4cnn_single_40_1822_daily/UP025.nc not found
+/data9/wangs/india/train_generate_4longTerm/pm_train_4cnn_single_40_1822_daily/WB005.nc not found
+/data9/wangs/india/train_generate_4longTerm/pm_train_4cnn_single_40_1822_daily/WB009.nc not found
+/data9/wangs/india/train_generate_4longTerm/pm_train_4cnn_single_40_1822_daily/WB011.nc not found
+/data9/wangs/india/train_generate_4longTerm/pm_train_4cnn_single_40_1822_daily/WB012.nc not found
+/data9/wangs/india/train_generate_4longTerm/pm_train_4cnn_single_40_1822_daily/WB013.nc not found
